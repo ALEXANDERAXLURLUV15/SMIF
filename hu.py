@@ -70,7 +70,7 @@ for tg in range(5000):
 	f=random.randrange(3000,6000)
 	g=random.randrange(20,100)
 	h='Mobile Safari/537.36'
-	turag=(f"{a} {b}; {c}{d}.{e}.{f}.{g} {h}")
+	smifff=(f"{a} {b}; {c}{d}.{e}.{f}.{g} {h}")
 	ugen.append(smifff)
 for ua in range(5000):
       a='Mozilla/5.0 (Linux; Android'
