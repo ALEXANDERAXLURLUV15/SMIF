@@ -412,6 +412,16 @@ def method():
         loop += 1    
       except Exception as e: time.sleep(10)
 
+    if m=='2':
+        with speed(max_workers=30) as speede:
+             speede.map(start2, accounts)
+    elif m=='1':
+       with speed(max_workers=30) as speede:
+            speede.map(start, accounts)
+    else:
+       with speed(max_workers=30) as speede:
+            speede.map(start, accounts)
+    exit()  
 def fuck():
     user=[]
     os.system('clear')
@@ -503,15 +513,5 @@ def rcrack(uid,pwx,tl):
     except:
         pass
 
-    if m=='2':
-        with speed(max_workers=30) as speede:
-             speede.map(start2, accounts)
-    elif m=='1':
-       with speed(max_workers=30) as speede:
-            speede.map(start, accounts)
-    else:
-       with speed(max_workers=30) as speede:
-            speede.map(start, accounts)
-    exit()  
 
 main()
